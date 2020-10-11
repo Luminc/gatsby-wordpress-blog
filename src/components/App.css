@@ -60,7 +60,7 @@ h1 {
 }
 
 .container {
-  max-width: 768px;
+  max-width: 1300px;
 }
 
 .hero {
@@ -401,6 +401,14 @@ h5.card-title {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .card-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
   }
 }
 
