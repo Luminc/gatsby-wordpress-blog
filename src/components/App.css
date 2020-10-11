@@ -413,7 +413,10 @@ h5.card-title {
 }
 
 /* MD */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
+  .card-columns {
+    column-gap: 4rem;
+  }
 }
 
 /* LG */
@@ -421,7 +424,10 @@ h5.card-title {
 }
 
 /* XL */
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
+  .card-columns {
+    column-gap: 10rem;
+  }
 }
 .nav-active {
   transform: translateX(0%);
