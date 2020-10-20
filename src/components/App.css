@@ -15,10 +15,25 @@
   --primary-light: rgba(57, 15, 26, 0.7);
 }
 
-html {
+html,
+body {
   font-size: 16px;
 }
 
+.container {
+  max-width: 1300px;
+}
+
+main {
+  min-height: 40vh;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+main p.has-text-align-left {
+  max-width: 740px;
+}
 a {
   color: var(--primary-dark);
 }
@@ -58,10 +73,6 @@ h1 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-
-.container {
-  max-width: 1300px;
 }
 
 .hero {
