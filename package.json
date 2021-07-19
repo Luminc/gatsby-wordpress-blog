@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.6.9",
     "gatsby-plugin-sitemap": "^2.4.4",
     "gatsby-source-filesystem": "^2.3.8",
-    "gatsby-source-wordpress": "^3.3.10",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-sharp": "^2.5.3",
     "lottie-react-web": "^2.1.4",
     "path": "^0.12.7",
